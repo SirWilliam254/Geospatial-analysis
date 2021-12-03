@@ -12,6 +12,7 @@ def embed_map(m, file_name):
     m.save(file_name)
     return IFrame(file_name, width='100%', height='500px')
 
+
 # Reading in the data  
 universities = pd.read_csv("~/ken_un.csv")
 universities.head()
