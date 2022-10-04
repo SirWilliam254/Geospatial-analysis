@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_60eb6b96c3f72104e732049f234aecbb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_60eb6b96c3f72104e732049f234aecbb" ></div>
+        
+</body>
+<script>    
+    
+            var map_60eb6b96c3f72104e732049f234aecbb = L.map(
+                "map_60eb6b96c3f72104e732049f234aecbb",
+                {
+                    center: [-1.170558, 36.917837],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_147eaa533452d31e4db81ac5108f1e94 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+            var marker_6c8b5557886d392159f49cfb8bc9eb97 = L.marker(
+                [-1.088301781, 37.02094844],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_8dd4ca7d03d2ae0cec3ec8af82f5379d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bae5f0660f4577c1764995f74fbcf091 = $(`<div id="html_bae5f0660f4577c1764995f74fbcf091" style="width: 100.0%; height: 100.0%;">Rubis Express Juja</div>`)[0];
+            popup_8dd4ca7d03d2ae0cec3ec8af82f5379d.setContent(html_bae5f0660f4577c1764995f74fbcf091);
+        
+
+        marker_6c8b5557886d392159f49cfb8bc9eb97.bindPopup(popup_8dd4ca7d03d2ae0cec3ec8af82f5379d)
+        ;
+
+        
+    
+    
+            var marker_ededc72cba06ddbabee66d47e870f687 = L.marker(
+                [-1.131148114, 36.98155591],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_6750946d08c9fe93d8d5eec13142db3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_337df4222fdfc73431c17b82f59fc381 = $(`<div id="html_337df4222fdfc73431c17b82f59fc381" style="width: 100.0%; height: 100.0%;">Rubis Express Kimbo</div>`)[0];
+            popup_6750946d08c9fe93d8d5eec13142db3b.setContent(html_337df4222fdfc73431c17b82f59fc381);
+        
+
+        marker_ededc72cba06ddbabee66d47e870f687.bindPopup(popup_6750946d08c9fe93d8d5eec13142db3b)
+        ;
+
+        
+    
+    
+            var marker_265ec865c9a8ce13456493fa49f8f7ea = L.marker(
+                [-1.170558488, 36.91783722],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_7097ea281b445d56c3ec981d290c8564 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4b68dfe3d6965005795eb7661b2588d = $(`<div id="html_a4b68dfe3d6965005795eb7661b2588d" style="width: 100.0%; height: 100.0%;">Rubis Express Membley</div>`)[0];
+            popup_7097ea281b445d56c3ec981d290c8564.setContent(html_a4b68dfe3d6965005795eb7661b2588d);
+        
+
+        marker_265ec865c9a8ce13456493fa49f8f7ea.bindPopup(popup_7097ea281b445d56c3ec981d290c8564)
+        ;
+
+        
+    
+    
+            var marker_ac0e9f3286ffbc4d40d72ae2e443b6d6 = L.marker(
+                [-1.277828899, 36.87273438],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_1041355bdf5b1169ab0aa0e2432c22a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b0ba2f5d6a7617966f8c451851dca4f = $(`<div id="html_2b0ba2f5d6a7617966f8c451851dca4f" style="width: 100.0%; height: 100.0%;">Rubis Express Buruburu</div>`)[0];
+            popup_1041355bdf5b1169ab0aa0e2432c22a3.setContent(html_2b0ba2f5d6a7617966f8c451851dca4f);
+        
+
+        marker_ac0e9f3286ffbc4d40d72ae2e443b6d6.bindPopup(popup_1041355bdf5b1169ab0aa0e2432c22a3)
+        ;
+
+        
+    
+    
+            var marker_3b9a0dff455b118273dc462b0f515bdf = L.marker(
+                [-1.259578232, 36.98435711],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_4ff126e0137a341e555970c1a201581c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eaf06fb6c7d080a784bc980be39fe73 = $(`<div id="html_5eaf06fb6c7d080a784bc980be39fe73" style="width: 100.0%; height: 100.0%;">Rubis Express Ruai</div>`)[0];
+            popup_4ff126e0137a341e555970c1a201581c.setContent(html_5eaf06fb6c7d080a784bc980be39fe73);
+        
+
+        marker_3b9a0dff455b118273dc462b0f515bdf.bindPopup(popup_4ff126e0137a341e555970c1a201581c)
+        ;
+
+        
+    
+    
+            var marker_9e12341b9151fa9f4cac502bef67ceb2 = L.marker(
+                [-1.396603256, 36.75552893],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_02189789773ea2448df7df81d29a04f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fad6eaebe0f4e43c880c36e1212667a3 = $(`<div id="html_fad6eaebe0f4e43c880c36e1212667a3" style="width: 100.0%; height: 100.0%;">Rubis Express Rongai</div>`)[0];
+            popup_02189789773ea2448df7df81d29a04f0.setContent(html_fad6eaebe0f4e43c880c36e1212667a3);
+        
+
+        marker_9e12341b9151fa9f4cac502bef67ceb2.bindPopup(popup_02189789773ea2448df7df81d29a04f0)
+        ;
+
+        
+    
+    
+            var marker_5845243f5d9a801934d592978b97c237 = L.marker(
+                [-1.340900769, 36.75368353],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_40c11a46d326c1c69e0cfb7d2479d6a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cc657969db3858ebba8d2e8f7219d46 = $(`<div id="html_2cc657969db3858ebba8d2e8f7219d46" style="width: 100.0%; height: 100.0%;">Rubis Express Bomas</div>`)[0];
+            popup_40c11a46d326c1c69e0cfb7d2479d6a3.setContent(html_2cc657969db3858ebba8d2e8f7219d46);
+        
+
+        marker_5845243f5d9a801934d592978b97c237.bindPopup(popup_40c11a46d326c1c69e0cfb7d2479d6a3)
+        ;
+
+        
+    
+    
+            var marker_95998ded55a5a0f58b855811654921eb = L.marker(
+                [-1.322815969, 36.80204429],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_b84e3c69a471f7ade8524981118cebfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1b23658cf781ad0668942980cc4d3b9 = $(`<div id="html_f1b23658cf781ad0668942980cc4d3b9" style="width: 100.0%; height: 100.0%;">Rubis Express Langata</div>`)[0];
+            popup_b84e3c69a471f7ade8524981118cebfd.setContent(html_f1b23658cf781ad0668942980cc4d3b9);
+        
+
+        marker_95998ded55a5a0f58b855811654921eb.bindPopup(popup_b84e3c69a471f7ade8524981118cebfd)
+        ;
+
+        
+    
+    
+            var marker_20a05ec0592175391e3d93af8cb70436 = L.marker(
+                [-1.31738775, 36.71744976],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_30464266d71fa4c79a4d0de1f0c32eb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a62b94ac9f514d737aecd2105f0a37ee = $(`<div id="html_a62b94ac9f514d737aecd2105f0a37ee" style="width: 100.0%; height: 100.0%;">Rubis Express Karen</div>`)[0];
+            popup_30464266d71fa4c79a4d0de1f0c32eb8.setContent(html_a62b94ac9f514d737aecd2105f0a37ee);
+        
+
+        marker_20a05ec0592175391e3d93af8cb70436.bindPopup(popup_30464266d71fa4c79a4d0de1f0c32eb8)
+        ;
+
+        
+    
+    
+            var marker_80b00b904098798f47130f09e9d596f2 = L.marker(
+                [-1.298178394, 36.76034208],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_12bbe8a3545f2d63e4c6fa8bd96dba22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0ce02356547959ac3760c833720ba95 = $(`<div id="html_b0ce02356547959ac3760c833720ba95" style="width: 100.0%; height: 100.0%;">Rubis Express Dagorreti</div>`)[0];
+            popup_12bbe8a3545f2d63e4c6fa8bd96dba22.setContent(html_b0ce02356547959ac3760c833720ba95);
+        
+
+        marker_80b00b904098798f47130f09e9d596f2.bindPopup(popup_12bbe8a3545f2d63e4c6fa8bd96dba22)
+        ;
+
+        
+    
+    
+            var marker_a93bf47860578fd2457f30779b4aa88d = L.marker(
+                [-1.330109755, 36.67287345],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_ca2944ee51d25681c66511b4e1bedb18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_287885d5ca9d84df0618b1cff8bfc227 = $(`<div id="html_287885d5ca9d84df0618b1cff8bfc227" style="width: 100.0%; height: 100.0%;">Rubis Express Bulbul</div>`)[0];
+            popup_ca2944ee51d25681c66511b4e1bedb18.setContent(html_287885d5ca9d84df0618b1cff8bfc227);
+        
+
+        marker_a93bf47860578fd2457f30779b4aa88d.bindPopup(popup_ca2944ee51d25681c66511b4e1bedb18)
+        ;
+
+        
+    
+    
+            var marker_66050aef33afaa888e95190433fd89ae = L.marker(
+                [-1.303954285, 36.74611755],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_9e7a4261867f9ecf7cd8c1bfdc005331 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c10062579e703183c855349dd2f5a65f = $(`<div id="html_c10062579e703183c855349dd2f5a65f" style="width: 100.0%; height: 100.0%;">Rubis Express Racecourse</div>`)[0];
+            popup_9e7a4261867f9ecf7cd8c1bfdc005331.setContent(html_c10062579e703183c855349dd2f5a65f);
+        
+
+        marker_66050aef33afaa888e95190433fd89ae.bindPopup(popup_9e7a4261867f9ecf7cd8c1bfdc005331)
+        ;
+
+        
+    
+    
+            var marker_eaed925b6dda88441da9aee86a40b610 = L.marker(
+                [-1.294953114, 36.799909],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_dc5513010aca14b663ef597b56446c99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b58dd293b41e125efe1c80a982563e5c = $(`<div id="html_b58dd293b41e125efe1c80a982563e5c" style="width: 100.0%; height: 100.0%;">Rubis Express Hurligham</div>`)[0];
+            popup_dc5513010aca14b663ef597b56446c99.setContent(html_b58dd293b41e125efe1c80a982563e5c);
+        
+
+        marker_eaed925b6dda88441da9aee86a40b610.bindPopup(popup_dc5513010aca14b663ef597b56446c99)
+        ;
+
+        
+    
+    
+            var marker_6d08b984a30b67853edca48d31940ede = L.marker(
+                [-1.284535092, 36.81926564],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_41249f37e6e7008afadacc5bf0113107 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e9520fcb923697707bb60bb9c645a0e = $(`<div id="html_0e9520fcb923697707bb60bb9c645a0e" style="width: 100.0%; height: 100.0%;">Rubis express Koinange</div>`)[0];
+            popup_41249f37e6e7008afadacc5bf0113107.setContent(html_0e9520fcb923697707bb60bb9c645a0e);
+        
+
+        marker_6d08b984a30b67853edca48d31940ede.bindPopup(popup_41249f37e6e7008afadacc5bf0113107)
+        ;
+
+        
+    
+    
+            var marker_4aeac9f7acd505fb4682b477ffa6784f = L.marker(
+                [-1.118071452, 36.64306943],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_d6e884e2dab3f69d586be7440631a4bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2153fc5a7fb333cdd8506ef66a4e213 = $(`<div id="html_d2153fc5a7fb333cdd8506ef66a4e213" style="width: 100.0%; height: 100.0%;">Rubis Express limuru road</div>`)[0];
+            popup_d6e884e2dab3f69d586be7440631a4bb.setContent(html_d2153fc5a7fb333cdd8506ef66a4e213);
+        
+
+        marker_4aeac9f7acd505fb4682b477ffa6784f.bindPopup(popup_d6e884e2dab3f69d586be7440631a4bb)
+        ;
+
+        
+    
+    
+            var marker_a3a7c80a9eadf2e70d6fdfd63860571f = L.marker(
+                [-1.24545562, 36.66539283],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_b1616e6b26de5e18f84d69d048f0ccb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e41c402d4967c7c520e4f6309076c4b = $(`<div id="html_9e41c402d4967c7c520e4f6309076c4b" style="width: 100.0%; height: 100.0%;">Rubis Express Kikuyu</div>`)[0];
+            popup_b1616e6b26de5e18f84d69d048f0ccb8.setContent(html_9e41c402d4967c7c520e4f6309076c4b);
+        
+
+        marker_a3a7c80a9eadf2e70d6fdfd63860571f.bindPopup(popup_b1616e6b26de5e18f84d69d048f0ccb8)
+        ;
+
+        
+    
+    
+            var marker_90924bdf9b22df93e6eea97c97c80825 = L.marker(
+                [-1.280460404, 36.64995072],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_79e929d75acadaf84c803d8e33fcac89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06d53663658af09fe9a718ea0627faa9 = $(`<div id="html_06d53663658af09fe9a718ea0627faa9" style="width: 100.0%; height: 100.0%;">Rubis Express Gikambura</div>`)[0];
+            popup_79e929d75acadaf84c803d8e33fcac89.setContent(html_06d53663658af09fe9a718ea0627faa9);
+        
+
+        marker_90924bdf9b22df93e6eea97c97c80825.bindPopup(popup_79e929d75acadaf84c803d8e33fcac89)
+        ;
+
+        
+    
+    
+            var marker_fefa81d43afcb5f238f6e7044233d7f4 = L.marker(
+                [-1.174681009, 36.75878544],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_26a7a00e8f57bba5bdaa991ff0258a92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdea85d85364f93aad4fbdfe6ef85640 = $(`<div id="html_cdea85d85364f93aad4fbdfe6ef85640" style="width: 100.0%; height: 100.0%;">Rubis Express Banana</div>`)[0];
+            popup_26a7a00e8f57bba5bdaa991ff0258a92.setContent(html_cdea85d85364f93aad4fbdfe6ef85640);
+        
+
+        marker_fefa81d43afcb5f238f6e7044233d7f4.bindPopup(popup_26a7a00e8f57bba5bdaa991ff0258a92)
+        ;
+
+        
+    
+    
+            var marker_d985ad50f01809f5a4c519d84d137caa = L.marker(
+                [-1.237893968, 36.81053557],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_367bf423d067d162b4335fdc7c1acaa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69ec902a269efdaf47514207d4f94a7a = $(`<div id="html_69ec902a269efdaf47514207d4f94a7a" style="width: 100.0%; height: 100.0%;">Rubis Express UN Avenue</div>`)[0];
+            popup_367bf423d067d162b4335fdc7c1acaa6.setContent(html_69ec902a269efdaf47514207d4f94a7a);
+        
+
+        marker_d985ad50f01809f5a4c519d84d137caa.bindPopup(popup_367bf423d067d162b4335fdc7c1acaa6)
+        ;
+
+        
+    
+    
+            var marker_7725f1f2ad8fa28695187b7f1d2ef8c7 = L.marker(
+                [-1.267087966, 36.81175223],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_4f3d829e2caeda986e19576e4b7f21d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_836694f99c8c87ca812fef305352bdd1 = $(`<div id="html_836694f99c8c87ca812fef305352bdd1" style="width: 100.0%; height: 100.0%;">Rubis express Ojijo</div>`)[0];
+            popup_4f3d829e2caeda986e19576e4b7f21d0.setContent(html_836694f99c8c87ca812fef305352bdd1);
+        
+
+        marker_7725f1f2ad8fa28695187b7f1d2ef8c7.bindPopup(popup_4f3d829e2caeda986e19576e4b7f21d0)
+        ;
+
+        
+    
+    
+            var marker_c5cf696db39a91ef8bcae186db800011 = L.marker(
+                [-4.286162559, 39.56608051],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_2dcd7e639272febb2b90ff2337d9c5db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38a7a366efb1188d1bbecbbb33fbf91a = $(`<div id="html_38a7a366efb1188d1bbecbbb33fbf91a" style="width: 100.0%; height: 100.0%;">Rubis Express Ukunda</div>`)[0];
+            popup_2dcd7e639272febb2b90ff2337d9c5db.setContent(html_38a7a366efb1188d1bbecbbb33fbf91a);
+        
+
+        marker_c5cf696db39a91ef8bcae186db800011.bindPopup(popup_2dcd7e639272febb2b90ff2337d9c5db)
+        ;
+
+        
+    
+    
+            var marker_eb959220a6441e7e5b8ad49016f53a4f = L.marker(
+                [-1.781546146, 37.62368816],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_65192f5b41a53986748f1e1fec456459 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b712860d9d9679de3b28a641bb4e1a2 = $(`<div id="html_4b712860d9d9679de3b28a641bb4e1a2" style="width: 100.0%; height: 100.0%;">Rubis Express Wote</div>`)[0];
+            popup_65192f5b41a53986748f1e1fec456459.setContent(html_4b712860d9d9679de3b28a641bb4e1a2);
+        
+
+        marker_eb959220a6441e7e5b8ad49016f53a4f.bindPopup(popup_65192f5b41a53986748f1e1fec456459)
+        ;
+
+        
+    
+    
+            var marker_9b4c819c2d921a8f82b862830d411378 = L.marker(
+                [-1.427457419, 36.96064912],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_ecf9632cb7015a820ed99da148626411 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06e1935c7e62c7f1e748cec2fa1da405 = $(`<div id="html_06e1935c7e62c7f1e748cec2fa1da405" style="width: 100.0%; height: 100.0%;">RUBIS Expres Sabaki</div>`)[0];
+            popup_ecf9632cb7015a820ed99da148626411.setContent(html_06e1935c7e62c7f1e748cec2fa1da405);
+        
+
+        marker_9b4c819c2d921a8f82b862830d411378.bindPopup(popup_ecf9632cb7015a820ed99da148626411)
+        ;
+
+        
+    
+    
+            var marker_f21d4824069b2a4cbe22738bc8986ba8 = L.marker(
+                [-1.312711326, 36.82678545],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_646397edb58e3a67133c9ffa5e287c13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d0146540f4c16c179ac40feb5b1ae07 = $(`<div id="html_6d0146540f4c16c179ac40feb5b1ae07" style="width: 100.0%; height: 100.0%;">Rubis Express South C</div>`)[0];
+            popup_646397edb58e3a67133c9ffa5e287c13.setContent(html_6d0146540f4c16c179ac40feb5b1ae07);
+        
+
+        marker_f21d4824069b2a4cbe22738bc8986ba8.bindPopup(popup_646397edb58e3a67133c9ffa5e287c13)
+        ;
+
+        
+    
+    
+            var marker_219d189e75a1a1dc5bca17d53f395323 = L.marker(
+                [-1.30401736, 36.82853793],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_716d476e52f0aafa3b22e6cb98e54a61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e059b60ba4b49db7bfd1a3e2ca0344b = $(`<div id="html_5e059b60ba4b49db7bfd1a3e2ca0344b" style="width: 100.0%; height: 100.0%;">Rubis Express Lusaka</div>`)[0];
+            popup_716d476e52f0aafa3b22e6cb98e54a61.setContent(html_5e059b60ba4b49db7bfd1a3e2ca0344b);
+        
+
+        marker_219d189e75a1a1dc5bca17d53f395323.bindPopup(popup_716d476e52f0aafa3b22e6cb98e54a61)
+        ;
+
+        
+    
+    
+            var marker_e1364b55eaeab20a2af65ad8b65efd29 = L.marker(
+                [-0.482215973, 37.12395088],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_68655087777d1b3f280451cfa99ea261 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbfd96fbdc7ac15b62993ddc6d94d52b = $(`<div id="html_fbfd96fbdc7ac15b62993ddc6d94d52b" style="width: 100.0%; height: 100.0%;">Rubis Express Karatina</div>`)[0];
+            popup_68655087777d1b3f280451cfa99ea261.setContent(html_fbfd96fbdc7ac15b62993ddc6d94d52b);
+        
+
+        marker_e1364b55eaeab20a2af65ad8b65efd29.bindPopup(popup_68655087777d1b3f280451cfa99ea261)
+        ;
+
+        
+    
+    
+            var marker_d471447eb95bef43e223203e6c1e5376 = L.marker(
+                [-1.25139592, 36.75717646],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_323052de791b44c8325fab176ea12160 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45489d79a9fc5a599332f669e4ad3720 = $(`<div id="html_45489d79a9fc5a599332f669e4ad3720" style="width: 100.0%; height: 100.0%;">Rubis Express Loresho</div>`)[0];
+            popup_323052de791b44c8325fab176ea12160.setContent(html_45489d79a9fc5a599332f669e4ad3720);
+        
+
+        marker_d471447eb95bef43e223203e6c1e5376.bindPopup(popup_323052de791b44c8325fab176ea12160)
+        ;
+
+        
+    
+    
+            var marker_5a406153852a956fda0f7543e53d33a9 = L.marker(
+                [-1.328073432, 36.88119099],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_405bf3ee0b273d9ef0a1560cff56d87d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_942b9dcbf6e157c9f6da28fd13f8d069 = $(`<div id="html_942b9dcbf6e157c9f6da28fd13f8d069" style="width: 100.0%; height: 100.0%;">Rubis Express Imara</div>`)[0];
+            popup_405bf3ee0b273d9ef0a1560cff56d87d.setContent(html_942b9dcbf6e157c9f6da28fd13f8d069);
+        
+
+        marker_5a406153852a956fda0f7543e53d33a9.bindPopup(popup_405bf3ee0b273d9ef0a1560cff56d87d)
+        ;
+
+        
+    
+    
+            var marker_1b10ebdc7781bb8ba4e993987f2229a4 = L.marker(
+                [-0.433118828, 36.96813363],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_dc267f582c8173c1d7d46bb19bb1dddc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e445ffd63b9604b8d0f9c5ead8673489 = $(`<div id="html_e445ffd63b9604b8d0f9c5ead8673489" style="width: 100.0%; height: 100.0%;">Rubis Express Skuta</div>`)[0];
+            popup_dc267f582c8173c1d7d46bb19bb1dddc.setContent(html_e445ffd63b9604b8d0f9c5ead8673489);
+        
+
+        marker_1b10ebdc7781bb8ba4e993987f2229a4.bindPopup(popup_dc267f582c8173c1d7d46bb19bb1dddc)
+        ;
+
+        
+    
+    
+            var marker_a70d68dbb1982c809c3560c8de51ef41 = L.marker(
+                [-1.150785278, 36.93510598],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_83cc2f48cf792bab0970138281dd978d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f56d8135c7c1c54ea61c2c98685cc967 = $(`<div id="html_f56d8135c7c1c54ea61c2c98685cc967" style="width: 100.0%; height: 100.0%;">Rubis Express Ruiru</div>`)[0];
+            popup_83cc2f48cf792bab0970138281dd978d.setContent(html_f56d8135c7c1c54ea61c2c98685cc967);
+        
+
+        marker_a70d68dbb1982c809c3560c8de51ef41.bindPopup(popup_83cc2f48cf792bab0970138281dd978d)
+        ;
+
+        
+    
+    
+            var marker_98d31bb27d6d68c507474f17567c0259 = L.marker(
+                [-1.287805118, 36.76155447],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_5502da9c976126173fc6f0257fc82d8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5116eaaf6a4b88e9afaa688884212ace = $(`<div id="html_5116eaaf6a4b88e9afaa688884212ace" style="width: 100.0%; height: 100.0%;">Rubis Express Lavington</div>`)[0];
+            popup_5502da9c976126173fc6f0257fc82d8e.setContent(html_5116eaaf6a4b88e9afaa688884212ace);
+        
+
+        marker_98d31bb27d6d68c507474f17567c0259.bindPopup(popup_5502da9c976126173fc6f0257fc82d8e)
+        ;
+
+        
+    
+    
+            var marker_ae3e6cf566de0ad2d81cd41ab8a6408a = L.marker(
+                [-1.230517865, 36.66740164],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_467becad325e2e08db2284007638a669 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21d0fd0067db09215675f43e5cfc5465 = $(`<div id="html_21d0fd0067db09215675f43e5cfc5465" style="width: 100.0%; height: 100.0%;">Rubis Express Sigona</div>`)[0];
+            popup_467becad325e2e08db2284007638a669.setContent(html_21d0fd0067db09215675f43e5cfc5465);
+        
+
+        marker_ae3e6cf566de0ad2d81cd41ab8a6408a.bindPopup(popup_467becad325e2e08db2284007638a669)
+        ;
+
+        
+    
+    
+            var marker_91eaa8737743b287eaeaa79ca2262f9c = L.marker(
+                [-0.568232836, 37.32126234],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_55752a99337a84a0d7b14296e3da45d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e50b6d0f8f30050b35000a4f994dd74 = $(`<div id="html_4e50b6d0f8f30050b35000a4f994dd74" style="width: 100.0%; height: 100.0%;">Rubis Express Kutus</div>`)[0];
+            popup_55752a99337a84a0d7b14296e3da45d1.setContent(html_4e50b6d0f8f30050b35000a4f994dd74);
+        
+
+        marker_91eaa8737743b287eaeaa79ca2262f9c.bindPopup(popup_55752a99337a84a0d7b14296e3da45d1)
+        ;
+
+        
+    
+    
+            var marker_d48e52b840bd918b6e7d65a1cea15190 = L.marker(
+                [-0.50559276, 37.28085909],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_1173dacbd1b62e6517a4c9c0406124d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eef6959ef1451d89a6ee17e1605b8657 = $(`<div id="html_eef6959ef1451d89a6ee17e1605b8657" style="width: 100.0%; height: 100.0%;">Rubis Express Kerugoya</div>`)[0];
+            popup_1173dacbd1b62e6517a4c9c0406124d0.setContent(html_eef6959ef1451d89a6ee17e1605b8657);
+        
+
+        marker_d48e52b840bd918b6e7d65a1cea15190.bindPopup(popup_1173dacbd1b62e6517a4c9c0406124d0)
+        ;
+
+        
+    
+    
+            var marker_bcb5b285a6e6a1ca6028b939a6de94d8 = L.marker(
+                [-0.533856217, 37.45073697],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_fe06d984b5e51f5dbcee5f889ada6644 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cc2b8ba86626a4bedbb729649e37193 = $(`<div id="html_8cc2b8ba86626a4bedbb729649e37193" style="width: 100.0%; height: 100.0%;">Rubis Express Kangerwe</div>`)[0];
+            popup_fe06d984b5e51f5dbcee5f889ada6644.setContent(html_8cc2b8ba86626a4bedbb729649e37193);
+        
+
+        marker_bcb5b285a6e6a1ca6028b939a6de94d8.bindPopup(popup_fe06d984b5e51f5dbcee5f889ada6644)
+        ;
+
+        
+    
+    
+            var marker_0608db5c465f16e01a72c5c63e9c8ad8 = L.marker(
+                [-0.520637943, 37.45368278],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_5126d95e22f65b90999e8df7f9046f21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a78aeecc6ca588d07142e125a668cdb = $(`<div id="html_5a78aeecc6ca588d07142e125a668cdb" style="width: 100.0%; height: 100.0%;">Rubis Express Embu</div>`)[0];
+            popup_5126d95e22f65b90999e8df7f9046f21.setContent(html_5a78aeecc6ca588d07142e125a668cdb);
+        
+
+        marker_0608db5c465f16e01a72c5c63e9c8ad8.bindPopup(popup_5126d95e22f65b90999e8df7f9046f21)
+        ;
+
+        
+    
+    
+            var marker_0c80e5a6ba8276c66a116747fedbfed8 = L.marker(
+                [-1.3589061, 36.65665419],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_1504d43e6add62aebd7eec0a75dcf2bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c435e1fb581fc5fd298303eb8bfe99 = $(`<div id="html_77c435e1fb581fc5fd298303eb8bfe99" style="width: 100.0%; height: 100.0%;">Rubis Ngong Town</div>`)[0];
+            popup_1504d43e6add62aebd7eec0a75dcf2bc.setContent(html_77c435e1fb581fc5fd298303eb8bfe99);
+        
+
+        marker_0c80e5a6ba8276c66a116747fedbfed8.bindPopup(popup_1504d43e6add62aebd7eec0a75dcf2bc)
+        ;
+
+        
+    
+    
+            var marker_dba549d71f95e1bb6baf80633cf072c4 = L.marker(
+                [0.00325784, 37.07239204],
+                {}
+            ).addTo(map_60eb6b96c3f72104e732049f234aecbb);
+        
+    
+        var popup_9e55c4794b2aa18c01bd060d769711f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0c73aa116b4b69445cc1b5775ddf38d = $(`<div id="html_e0c73aa116b4b69445cc1b5775ddf38d" style="width: 100.0%; height: 100.0%;">Rubis Nanyuki</div>`)[0];
+            popup_9e55c4794b2aa18c01bd060d769711f4.setContent(html_e0c73aa116b4b69445cc1b5775ddf38d);
+        
+
+        marker_dba549d71f95e1bb6baf80633cf072c4.bindPopup(popup_9e55c4794b2aa18c01bd060d769711f4)
+        ;
+
+        
+    
+</script>
